@@ -1,0 +1,38 @@
+
+
+/* .azeret-mono-<uniquifier> {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+header{
+    background-color: pink;
+}
+/* Nav styles*/
+nav ul{
+    padding:0px 30px 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
