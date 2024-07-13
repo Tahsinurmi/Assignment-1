@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-/* .azeret-mono-<uniquifier> {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
-
-header{
-    background-color: pink;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Azeret Mono';
+    box-sizing: border-box;
 }
-/* Nav styles*/
+
+.hero{
+    height: 100vh;
+}
+
+nav{
+    height: 10vh;
+}
+
 nav ul{
-    padding:0px 30px 0px;
+    padding:0px 10vw 0px;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -24,7 +27,125 @@ nav ul li a{
     text-decoration: none;
 }
 
+nav ul li a h3{
+    font-size: 27px;
+    color: black;
+    font-style: bold;
+}
 
+
+.home-container{
+    height: 87vh;
+    margin-top: 3vh;
+    background-image: url(./assets/Hero-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-title{
+    padding: 0px 17vw 0px;
+    font-size: 25px;
+    text-align: center;
+    font-style: bold;
+}
+
+.home-container p{
+    padding: 0px 17vw 0px;
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+
+.download-resume{
+    border-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+    border: 2px solid rgb(110, 110, 110);
+}
+
+.contact-with-me{
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+.section-2{
+    margin-top: 3vh;
+    height: 100vh;
+}
+
+.section-2-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-2-title h2{
+    font-size: 27px;
+    margin-bottom: 3vh;
+}
+
+.section-2-title p{
+    margin-top: 3vh;
+    text-align: center;
+    margin: 0px 20vw 0px;
+    color: rgb(110, 110, 110);
+}
+
+
+.group{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.text-group{
+    width: 40vw;
+}
+
+.text-group-title{
+    font-size: 15px;
+    padding-right: 20vw;
+    color:rgb(110, 110, 110);
+    margin-bottom: 15px;
+    font-style: bold;
+}
+
+.text-group-description{
+    padding-right: 10vw;
+    font-size: 17px;
+    color:rgb(110, 110, 110);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.text-group a{
+    border-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 2vh;
+    border: 2px solid rgb(110, 110, 110);
+}
 
 
 
